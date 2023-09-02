@@ -1,0 +1,20 @@
+.gpt3__brand-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+/* ------------------------------ Медиа -------------------------------- */
+
+@media screen and (max-width: 650px) {
+  .gpt3__brand-images img {
+    width: 60px;
+    gap: 2px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gpt3__brand-images img {
+    width: 40px;
+    gap: 2px;
+  }
+}
