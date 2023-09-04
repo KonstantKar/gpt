@@ -7,9 +7,10 @@ import {
   Possibility,
   WhatGPT,
   Header,
+  CTA,
   Features,
 } from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import { Brand, Navbar } from "./components";
 
 function App() {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Possibility.css";
 import possibility from "../../assets/possibility.png";
+import { Request } from "../../components";
 const Possibility = () => {
   return (
     <div className="gpt3__possibility possibility__padding">
@@ -8,9 +9,7 @@ const Possibility = () => {
         <img src={possibility} alt="image"></img>
       </div>
       <div className="gpt3__possibility-info">
-        <div className="gpt3__possibility-info__early">
-          Request Early Access to Get Started
-        </div>
+        <Request />
         <h1 className="gradient__text">
           The possibilities are beyond your imagination
         </h1>
@@ -20,8 +19,8 @@ const Possibility = () => {
           alteration boisterous the attachment. Party we years to order allow
           asked of.
         </p>
-        <div className="gpt3__possibility-info__request">
-          Request Early Access to Get Started
+        <div className="gpt3__possibility-info__request ">
+          <Request textColor="#FF8A71" />
         </div>
       </div>
     </div>
