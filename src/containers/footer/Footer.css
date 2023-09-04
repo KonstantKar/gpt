@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: #031b34;
 }
 .gpt3__footer h1 {
   display: flex;
