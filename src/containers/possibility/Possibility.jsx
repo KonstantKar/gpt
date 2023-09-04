@@ -4,7 +4,7 @@ import possibility from "../../assets/possibility.png";
 import { Request } from "../../components";
 const Possibility = () => {
   return (
-    <div className="gpt3__possibility possibility__padding">
+    <div className="gpt3__possibility possibility__padding" id="possibility">
       <div className="gpt3__possibility-img">
         <img src={possibility} alt="image"></img>
       </div>

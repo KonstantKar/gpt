@@ -1,0 +1,47 @@
+.gpt3__news {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.gpt3__news img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gpt3__news__container {
+  background-color: #042c54;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px;
+  height: 70%;
+  position: relative;
+}
+.gpt3__news__container-data {
+  font-family: var(--font-family);
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 35px;
+}
+.gpt3__news__container-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: var(--font-family);
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 20px;
+}
+.gpt3__news__container-title p {
+  position: absolute;
+  bottom: 0;
+  font-family: var(--font-family);
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 35px;
+  cursor: pointer;
+}
