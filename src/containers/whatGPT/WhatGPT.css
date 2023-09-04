@@ -95,3 +95,9 @@
     display: none;
   }
 }
+@media screen and (max-width: 800px) {
+  .gpt3__whatgpt {
+    margin: 0px 48px 32px 48px;
+    padding: 32px;
+  }
+}
