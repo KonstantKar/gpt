@@ -8,7 +8,7 @@ import blog04 from "../../assets/blog04.png";
 import blog05 from "../../assets/blog05.png";
 const Blog = () => {
   return (
-    <div className="gpt3__blog section__padding">
+    <div className="gpt3__blog " id="blog">
       <h1 className="gradient__text">
         A lot is happening,
         <br /> We are blogging about it.

@@ -3,7 +3,7 @@ import "./CTA.css";
 import { Request } from "../../components";
 const CTA = () => {
   return (
-    <div className="gpt3__cta ">
+    <div className="gpt3__cta" id="features">
       <div className="gpt3__cta__container">
         <div className="gpt3__cta__container-title">
           <Request textColor="black" />

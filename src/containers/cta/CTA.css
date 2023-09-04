@@ -34,6 +34,7 @@
   font-size: 18px;
   line-height: 30px;
   margin-right: 4px;
+  cursor: pointer;
 }
 @media screen and (max-width: 800px) {
   .gpt3__cta {

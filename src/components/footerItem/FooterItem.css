@@ -1,0 +1,18 @@
+.gpt3__footerItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.gpt3__footerItem__title {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+}
+.gpt3__footerItem__link {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  cursor: pointer;
+}
